@@ -30,6 +30,55 @@
                 <h2>Описание товара</h2>
                 <p>Новый смартфон Apple...</p>
             </section>
+
+            <section>
+                <h1>Регистрация</h1>
+
+                <form>
+                    <label for="name">Name</label>
+                    <label for="email">Email</label>
+                    <label for="password">Password</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="John"
+                        required
+                    >
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="example@gmail.com"
+                        required
+                    >
+                    <input
+                        type="number"
+                        id="age"
+                        name="age"
+                        min="18"
+                        max="100"
+                    >
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="12345"
+                        required
+                    >
+                    <input
+                        type="checkbox"
+                        id="checkbox"
+                        name="terms"
+                        required
+                    >
+                    <label for="terms">Я согласен с правилами</label>
+
+                    <button type="submit">Зарегистрироваться</button>
+                </form>
+            </section>
+
         </main>
 
         <footer>

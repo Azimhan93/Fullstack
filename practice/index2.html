@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>iPhone 17 — интернет-магазин</title>
+        <meta name="description" content="Купить iPhone 17 по цене 40 000 грн. Характеристики, описание и доставка.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="./script.js" defer></script>
+    </head>
+    <body>
+        <main>
+            <section>
+                <h1>Регистрация</h1>
+
+                <fieldset>
+                    <legend>Gender</legend>
+
+                    <input
+                        type="radio"
+                        id="male"
+                        name="gender"
+                        value="male"
+                        required
+                    >
+                    <label for="male">Male</label>
+
+                    <input
+                        type="radio"
+                        id="female"
+                        name="gender"
+                        value="female"
+                    >
+                    <label for="female">Female</label>
+                </fieldset>
+
+                <label for="city">City</label>
+
+                <select id="city" name="city" required>
+                    <option value="" disabled selected>Choose a city</option>
+                    <option value="kharkiv">Kharkiv</option>
+                    <option value="kyiv">Kyiv</option>
+                    <option value="odesa">Odesa</option>
+                </select>
+
+                <label for="about">About yourself</label>
+
+                <textarea
+                    id="about"
+                    name="about"
+                    placeholder="Tell us about yourself"
+                    maxlength="200"
+                ></textarea>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <p>© 2026 My Store</p>
+        </footer>
+    </body>
+</html>
